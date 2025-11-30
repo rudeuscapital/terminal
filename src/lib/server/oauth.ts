@@ -1,5 +1,16 @@
 import { GitHub } from 'arctic';
-import { GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET, BASE_URL } from '$env/static/private';
+import { env } from '$env/dynamic/private';
 
-// TODO: Update redirect URI
-export const github = new GitHub(GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET, BASE_URL + '/api/auth/callback');
+const clientId = env.GITHUB_CLIENT_ID;
+const clientSecret = env.GITHUB_CLIENT_SECRET;
+
+if (!clientId || !clientSecret) {
+  throw new Error('Missing GitHub OAuth env vars (GITHUB_CLIENT_ID / GITHUB_CLIENT_SECRET)');
+}
+
+export const github = new GitHub(
+  clientId,
+  clientSecret,
+  // ganti ini dengan URL production kamu nanti
+  `${env.BASE_URL ?? 'http://localhost:5173'}/login/github/callback`
+);

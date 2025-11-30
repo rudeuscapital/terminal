@@ -67,7 +67,7 @@
 <div class="flex items-center gap-2 whitespace-nowrap">
 	<a
 		class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black"
-		href=""
+		href="https://x.com/elosyn_"
 		target="_blank"
 		rel="noreferrer"
 		data-umami-event="social-link"
@@ -78,7 +78,7 @@
 
 	<a
 		class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black"
-		href=""
+		href="AkiMEDjyuQcUVMsaDQT3CBTVVoWWAHeKpWLGVqY5pump"
 		target="_blank"
 		rel="noreferrer"
 		data-umami-event="social-link"

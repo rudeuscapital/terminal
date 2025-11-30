@@ -48,7 +48,7 @@
 			<div class="h-3 w-3 rounded-full bg-[#898989] transition-colors group-hover:bg-[#2BC840]"></div>
 		</button>
 	</div>
-	<p class="not-sr-only mx-auto hidden font-semibold select-none lg:block">Ghostty</p>
-	<p class="not-sr-only mx-auto block font-semibold select-none lg:hidden">Wiscaksono</p>
+	<p class="not-sr-only mx-auto hidden font-semibold select-none lg:block">Elosyn architecture</p>
+	<p class="not-sr-only mx-auto block font-semibold select-none lg:hidden">Elosyn architecture</p>
 	<Face />
 </header>

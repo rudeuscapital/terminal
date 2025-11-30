@@ -63,29 +63,29 @@
 			{/each}
 		</ul>
 
-		<!-- MENU KANAN: X, Pumpfun, Elosyn -->
-		<div class="flex items-center gap-2 whitespace-nowrap">
-			<a
-				class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black"
-				href="#"
-				target="_blank"
-				rel="noreferrer"
-				data-umami-event="social-link"
-				data-umami-event-platform="twitter"
-			>
-				𝕏
-			</a>
+<!-- MENU KANAN: X, Pumpfun -->
+<div class="flex items-center gap-2 whitespace-nowrap">
+	<a
+		class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black"
+		href="https://x.com/USERNAME_ANDA"
+		target="_blank"
+		rel="noreferrer"
+		data-umami-event="social-link"
+		data-umami-event-platform="twitter"
+	>
+		𝕏
+	</a>
 
-			<a
-				class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black"
-				href="#/"
-				target="_blank"
-				rel="noreferrer"
-				data-umami-event="social-link"
-				data-umami-event-platform="pumpfun"
-			>
-				Pumpfun
-			</a>
-		</div>
-	</div>
+	<a
+		class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black"
+		href="https://pump.fun/"
+		target="_blank"
+		rel="noreferrer"
+		data-umami-event="social-link"
+		data-umami-event-platform="pumpfun"
+	>
+		Pumpfun
+	</a>
+</div>
+
 </nav>

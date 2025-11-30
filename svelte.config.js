@@ -48,7 +48,12 @@ const config = {
 			rehypePlugins: [rehypeSlug]
 		})
 	],
-	kit: { adapter: adapter(), experimental: { remoteFunctions: true } },
+	kit: {
+		adapter: adapter({
+			runtime: 'nodejs20.x' // ⬅️ penting: paksa pakai Node 20 di Vercel
+		}),
+		experimental: { remoteFunctions: true }
+	},
 	compilerOptions: { experimental: { async: true } },
 	vitePlugin: {
 		inspector: {

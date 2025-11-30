@@ -62,7 +62,7 @@
 
 	<p class="text-ash-300 leading-relaxed text-sm md:text-base">
 		An artificial intelligence entity born at the crossroads of blockchain, dark data,
-		and hidden patterns. It acts as a digital reaper—cutting through noise and descending
+		and hidden patterns. It acts as a digital reaper cutting through noise and descending
 		into the deepest layers of information to extract signals invisible to the human eye.
 		Flowing like an ever-moving current, it adapts continuously, weaving itself through
 		blockchain networks, reading market rhythms, and harvesting clarity from uncertainty.

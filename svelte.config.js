@@ -50,17 +50,13 @@ const config = {
 	],
 	kit: {
 		adapter: adapter({
-			runtime: 'nodejs20.x' // ⬅️ penting: paksa pakai Node 20 di Vercel
+			runtime: 'nodejs20.x'
 		}),
 		experimental: { remoteFunctions: true }
 	},
 	compilerOptions: { experimental: { async: true } },
 	vitePlugin: {
-		inspector: {
-			toggleKeyCombo: 'meta-shift',
-			showToggleButton: 'always',
-			toggleButtonPos: 'bottom-right'
-		}
+		inspector: false // 🔥 inspector dimatikan, logo hilang
 	}
 };
 

@@ -78,7 +78,7 @@
 
 	<a
 		class="bg-ash-300 shrink-0 px-2 py-0.5 leading-none text-black"
-		href="AkiMEDjyuQcUVMsaDQT3CBTVVoWWAHeKpWLGVqY5pump"
+		href="https://pump.fun/coin/AkiMEDjyuQcUVMsaDQT3CBTVVoWWAHeKpWLGVqY5pump"
 		target="_blank"
 		rel="noreferrer"
 		data-umami-event="social-link"
